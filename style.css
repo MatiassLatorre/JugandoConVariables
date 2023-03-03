@@ -1,0 +1,53 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+
+img {
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+    padding: var(--spacing);
+    width: 80%;
+    max-width: 700px;
+}
+
+.hl {
+    color: var(--base);
+    text-shadow: -4px 3px 8px var(--base);
+}
+
+
+
+/* Estilos default, no tienen nada que ver con variables*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(9, 23, 51);
+}
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+input {
+    width: 100%;
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+img {
+    border-radius: 5px;
+}
